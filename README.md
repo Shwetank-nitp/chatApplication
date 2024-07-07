@@ -25,8 +25,8 @@ Welcome to the Chat Application repository! This project is a real-time chat app
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/chat-application.git
-   cd chat-application
+   git clone https://github.com/Shwetank-nitp/chatApplication.git
+   cd chatApplication
    ```
 
 2. **Install dependencies**:
