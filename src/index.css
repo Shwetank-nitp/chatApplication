@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  background-image: url("./assets/eric-patterson-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b-top {
+  border-top: 0.5px solid rgba(107, 114, 128, 0.75);
+}
+.b-btm {
+  border-bottom: 0.5px solid rgba(107, 114, 128, 0.75);
+}
+.b-left {
+  border-left: 0.5px solid rgba(107, 114, 128, 0.75);
+}
+.b-right {
+  border-right: 0.5px solid rgba(107, 114, 128, 0.75);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.test {
+  border: solid 1px red;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(28, 27, 27, 0.766);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgb(73, 71, 71);
+}
+
+.glass-x {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
